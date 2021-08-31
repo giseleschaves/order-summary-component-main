@@ -30,41 +30,42 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/giseleschaves/order-summary-component-main)
+- Live Site URL: (https://giseleschaves.github.io/order-summary-component-main/)
 
 ## My process
+
+Because I'm a newbie I started doing everything that I know without copy any solution.
+First I start with the mobile version and at the end made the adjusts to desktop and wide, as my monitor is wide.
+After I got stuck to align some elements in special to centre the main container found a solution on CSS Tricks (resources at the end), this brought me to learn more about transform property.
+
+Another point was box-shadow that I have never used before only and I spend more time learning before coding the solution.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-More about flexbox, box-shadow and semantic html5
+I review 3 conceps that I got stuck during the challenge:
 
-To see how you can add code snippets, see below:
+- flexbox
+- box-shadow
+- transform
 
-```html
-<h1>main tag</h1>
-I'm trying to use all recomendations to creta a more accesible html. On this
-project I used just main, because there are not more areas like section and
-footer to explore, but I could review this concept.
-```
+Exploring some online-tutorials I could finish the challenge having a better undertand of them, but I still need practice to be conformtable. But I'm proud to have figure out how to make the box-shadow after the tutorial. Follow bellow the code with comments to explain better each value.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.button-pay {
+  /* horizontal (+/-) vertical (+/-) size blur (0 solid-soft) start blur color (default transparent) */
+  box-shadow: 0px 20px 20px -2px #c5d0f7;
 }
 ```
 
 I spend more time studyng about flexbox, box-shadow and transform properties instead copy someone else solution.
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
@@ -72,18 +73,14 @@ I want to study and build challenges to fix my understanding about flexbox, grid
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I was totally in doubt about some concepts these folks here produced good explanations.
+
+- Kevin Powell - Box-shadow tutorial, the basics (https://youtu.be/-JNRQ5HjNeI)
+- Chris Coyier - CSS Tricks (https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/)
+- Kyle from Web Dev Simplified - Learn CSS Transform (https://youtu.be/rzD-cPhq02E)
 
 ## Author
 
 - Website - Gisele (https://www.your-site.com)
 - Frontend Mentor - @giseleschaves(https://www.frontendmentor.io/profile/giseleschaves)
 - Twitter - @gisele_s_chaves(https://www.twitter.com/gisele_s_chaves)
-
-## Acknowledgments
-
-I was totally in doubt about some concepts these folks here produced good explanations.
-
-- Kevin Powell - Box-shadow tutorial, the basics (https://youtu.be/-JNRQ5HjNeI)
-- Kyle from Web Dev Simplified - Learn CSS Transform (https://youtu.be/rzD-cPhq02E)
