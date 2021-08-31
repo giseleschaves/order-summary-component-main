@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card
 
-This is the solution to the ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is the solution to this challenge from Frontend Mentor ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg).
 
 ## Welcome! 👋
 
@@ -24,7 +24,7 @@ Thanks for checking out this front-end coding challenge.
 
 ### The challenge
 
-Users should be able to:
+Develop a simple card to sign a music plan. Users should be able to:
 
 - See hover states for interactive elements
 
@@ -81,6 +81,5 @@ I was totally in doubt about some concepts these folks here produced good explan
 
 ## Author
 
-- Website - Gisele (https://www.your-site.com)
 - Frontend Mentor - @giseleschaves(https://www.frontendmentor.io/profile/giseleschaves)
 - Twitter - @gisele_s_chaves(https://www.twitter.com/gisele_s_chaves)
