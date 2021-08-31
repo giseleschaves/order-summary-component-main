@@ -1,0 +1,124 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  background-color: #e0e8ff;
+  height: 100vh;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  body {
+    /* desktop*/
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  body {
+    /* wide*/
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-position: left top;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 340px;
+  height: 560px;
+  border-radius: 20px;
+  background-color: white;
+  color: #8f92a6;
+  text-align: center;
+  justify-content: center;
+}
+
+#main-image {
+  width: 340px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#summary-box {
+  margin-top: 30px;
+  text-align: center;
+  color: #8f92a6;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: black;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+strong {
+  color: black;
+  font-weight: 700;
+}
+
+#payment-box {
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  margin: 20px 20px;
+  padding: 20px;
+}
+#payment-box span {
+  width: 100%;
+  font-family: 700;
+}
+
+#payment-box img {
+  padding-right: 20px;
+}
+
+#payment-box a {
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  color: #766cf1;
+}
+#payment-box a:hover {
+  text-decoration: none;
+}
+.button-pay {
+  background-color: #3829e0;
+  color: white;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 20px;
+  /* horizontal (+/-) vertical (+/-) size blur (0 solid-soft) start blur color (default transparent) */
+  box-shadow: 0px 20px 20px -2px #c5d0f7;
+  /* shadow: #e1defb*/
+}
+.button-pay:hover {
+  background-color: #766cf1;
+}
+
+.cancel {
+  padding-top: 10px;
+  font-weight: 700;
+  color: #9195a7;
+  text-decoration: none;
+}
+.cancel:hover {
+  color: black;
+}
